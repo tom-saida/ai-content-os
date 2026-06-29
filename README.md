@@ -15,6 +15,17 @@ A self-running social-content engine. One Airtable base + an AI agent + your own
    └─────────────────────────────────────────────────────────────┘
 ```
 
+## ✅ Prerequisites — what you (and your AI) need
+
+The build (base, dashboard, calendar, all 5 tasks) is **one paste** — but it only **auto-runs** if your AI agent has the right tools. Before you start:
+
+- **An AI agent with connectors.** Built and tested with **Claude** (Cowork or desktop). It must have: an **Airtable** connector, **browser control** (the **Claude-in-Chrome** extension — used to publish and read metrics), and the ability to **create scheduled tasks**. Add a **Canva** connector too if you want auto-generated thumbnails (optional).
+- **An Airtable account** — the free tier is fine to start.
+- **Your social accounts logged in** in that same browser (LinkedIn / YouTube / Facebook).
+- **Two things stay manual.** You drop your finished **video/image files** onto each record (the system writes the scripts, captions, and thumbnails — it doesn't film your videos), and you tick **`Approve to Post`** — nothing ever publishes until you do.
+
+> Without the Airtable + browser + scheduler connectors, Claude can still **build the system and write your content**, but it can't auto-publish or pull metrics — that part needs the tools above.
+
 ## ⚡ Set it up in one message (no copy-paste)
 
 Tell your AI assistant (Claude with an Airtable connector + browser control):
@@ -33,13 +44,6 @@ _Prefer to do it by hand? Paste [`prompts/00-setup-super-prompt.md`](prompts/00-
 - **Publishes** the items that are due and that you've checked `Approve to Post`, straight to your accounts through your own logged-in browser.
 - **Measures** by reading the engagement numbers back off each post and writing them to the records.
 - **Reports** a weekly performance summary, and powers a **live Airtable dashboard** (KPIs + charts + top posts).
-
-## What you need
-
-- An **Airtable** account (free works to start).
-- An **AI agent** with: an Airtable connector/MCP, browser control (e.g. the Claude-in-Chrome extension), and the ability to create scheduled tasks. (Built and tested with Claude.)
-- A **browser** logged into your social accounts (LinkedIn / YouTube / Facebook / etc.).
-- A connected **Canva** account if you want auto-generated thumbnails + banners (optional).
 
 ## Quick start
 
