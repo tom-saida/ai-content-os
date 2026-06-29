@@ -39,7 +39,7 @@ Create a base called "Content OS" with a table "Content Calendar" and these fiel
 - CTA (single select: my standard CTAs)
 - Cover Image Prompt (AI) (long text)
 - Cover Image (attachment)
-- Asset / Final File (attachment) — the finished video/image the publish task uploads (videos & shorts MUST have a file here to post; banners fall back to Cover Image)
+- Asset/Final File (attachment) — the finished video/image the publish task uploads (videos & shorts MUST have a file here to post; banners fall back to Cover Image)
 - Design Brief (long text)
 - Dimensions (single line text)
 - Post Date (date)
