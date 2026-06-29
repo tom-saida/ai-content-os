@@ -5,7 +5,9 @@ Paste this **one prompt** into an AI agent that has an **Airtable connector**, *
 > If your agent can't do everything in one go, run it in parts — the prompt is split into Parts A–E.
 
 ```
-(If a user pointed you at this repo's URL instead of pasting this prompt: first read the repo's README.md and prompts/01–05, then follow the steps below.)
+FIRST — GET THE TASK FILES FROM GITHUB: this setup uses 5 task-prompt files. Before you build, open the project repo and read them (use the Raw file contents):
+  https://github.com/tom-saida/ai-content-os
+Read its README.md plus prompts/01-weekly-content-plan.md, prompts/02-weekly-revisions.md, prompts/03-daily-publish.md, prompts/04-weekly-results.md, and prompts/05-weekly-thumbnails.md. You'll use those five files verbatim for the scheduled tasks in Part D, substituting my answers for the {{PLACEHOLDERS}}. If you cannot reach the repo, ask me to paste the five files.
 
 You are my automation engineer. Build me a complete, self-running social-content engine — an "AI Content OS" — and do as much of it yourself as your tools allow. I should have to do almost nothing.
 
