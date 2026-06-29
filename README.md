@@ -60,7 +60,7 @@ _Prefer to do it by hand? Paste [`prompts/00-setup-super-prompt.md`](prompts/00-
 
 ## Data model (Content Calendar)
 
-Each row is one piece of content, moving `Idea → Scheduled → Posted`. Key fields: Content Type, Platforms, Content Pillar, Hook, Outline/Script, Caption, Hashtags, CTA, **Cover Image Prompt** + **Cover Image**, Post Date, Week Of, the metric fields (Views / Likes / Comments / Shares / **Engagement**), **Approve to Post** (the publish gate), and **Changes / Change Status** (your edit loop). Full schema is in the setup prompt.
+Each row is one piece of content, moving `Idea → Scheduled → Posted`. Key fields: Content Type, Platforms, Content Pillar, Hook, Outline/Script, Caption, Hashtags, CTA, **Cover Image Prompt** + **Cover Image**, **Asset / Final File** (the finished video/image you drop in to publish), Post Date, Week Of, the metric fields (Views / Likes / Comments / Shares / **Engagement**), **Approve to Post** (the publish gate), and **Changes / Change Status** (your edit loop). Full schema is in the setup prompt.
 
 ## Placeholders to fill in
 
