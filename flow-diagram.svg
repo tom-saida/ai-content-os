@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" font-family="'Segoe UI', system-ui, -apple-system, Arial, sans-serif">
+  <rect width="1600" height="900" fill="#FFFFFF"/>
+  <rect x="0" y="0" width="1600" height="10" fill="#C9A227"/>
+
+  <!-- Title -->
+  <text x="800" y="64" text-anchor="middle" fill="#C9A227" font-size="16" font-weight="700" letter-spacing="4">AI CONTENT OS</text>
+  <text x="800" y="106" text-anchor="middle" fill="#1A1A1A" font-size="40" font-weight="800">How the content machine runs itself</text>
+  <text x="800" y="138" text-anchor="middle" fill="#6B7280" font-size="19">One Airtable base · an AI agent · your own browser — looping every week.</text>
+
+  <!-- Loop-back arrow over the top -->
+  <path d="M1400 232 C1400 184 1150 178 800 178 C450 178 350 184 205 230" fill="none" stroke="#C9A227" stroke-width="2.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <polygon points="205,232 198,219 213,221" fill="#C9A227"/>
+  <g transform="translate(726,168)">
+    <path d="M14 4 A10 10 0 1 0 22 9" fill="none" stroke="#C9A227" stroke-width="2.5"/>
+    <polygon points="22,2 25,11 15,10" fill="#C9A227"/>
+  </g>
+  <text x="800" y="173" text-anchor="middle" fill="#9A7A12" font-size="15" font-weight="700" letter-spacing="2">REPEATS EVERY WEEK</text>
+
+  <!-- Connectors between cards -->
+  <g stroke="#C9A227" stroke-width="3" fill="#C9A227">
+    <line x1="326" y1="350" x2="372" y2="350"/><polygon points="372,344 384,350 372,356"/>
+    <line x1="626" y1="350" x2="672" y2="350"/><polygon points="672,344 684,350 672,356"/>
+    <line x1="926" y1="350" x2="972" y2="350"/><polygon points="972,344 984,350 972,356"/>
+    <line x1="1226" y1="350" x2="1272" y2="350"/><polygon points="1272,344 1284,350 1272,356"/>
+  </g>
+
+  <!-- Connectors from cards down to backbone -->
+  <g stroke="#E5C04A" stroke-width="2">
+    <line x1="200" y1="465" x2="200" y2="512"/>
+    <line x1="500" y1="465" x2="500" y2="512"/>
+    <line x1="800" y1="465" x2="800" y2="512"/>
+    <line x1="1100" y1="465" x2="1100" y2="512"/>
+    <line x1="1400" y1="465" x2="1400" y2="512"/>
+  </g>
+
+  <!-- ===== CARD 1 · PLAN ===== -->
+  <g>
+    <rect x="80" y="235" width="240" height="230" rx="18" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <circle cx="114" cy="271" r="20" fill="#C9A227"/><text x="114" y="271" text-anchor="middle" dy=".34em" fill="#FFFFFF" font-size="22" font-weight="800">1</text>
+    <rect x="240" y="256" width="62" height="28" rx="14" fill="#F3F4F6" stroke="#E5E7EB"/><text x="271" y="270" text-anchor="middle" dy=".34em" fill="#4B5563" font-size="12.5" font-weight="700">AUTO</text>
+    <g transform="translate(100,318)"><rect x="3" y="1" width="15" height="22" rx="2" fill="none" stroke="#C9A227" stroke-width="2"/><line x1="6" y1="7" x2="15" y2="7" stroke="#C9A227" stroke-width="2"/><line x1="6" y1="11" x2="15" y2="11" stroke="#C9A227" stroke-width="2"/><line x1="6" y1="15" x2="12" y2="15" stroke="#C9A227" stroke-width="2"/></g>
+    <text x="134" y="342" fill="#1A1A1A" font-size="22" font-weight="800">Plan</text>
+    <rect x="100" y="356" width="74" height="26" rx="13" fill="#FBF4DA"/><text x="137" y="369" text-anchor="middle" dy=".34em" fill="#9A7A12" font-size="12.5" font-weight="700">Friday</text>
+    <text x="100" y="408" fill="#4B5563" font-size="14.5"><tspan x="100" dy="0">AI drafts next week —</tspan><tspan x="100" dy="19">ideas, scripts, captions,</tspan><tspan x="100" dy="19">hashtags &amp; image prompts.</tspan></text>
+  </g>
+
+  <!-- ===== CARD 2 · VISUALS ===== -->
+  <g>
+    <rect x="380" y="235" width="240" height="230" rx="18" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <circle cx="414" cy="271" r="20" fill="#C9A227"/><text x="414" y="271" text-anchor="middle" dy=".34em" fill="#FFFFFF" font-size="22" font-weight="800">2</text>
+    <rect x="540" y="256" width="62" height="28" rx="14" fill="#F3F4F6" stroke="#E5E7EB"/><text x="571" y="270" text-anchor="middle" dy=".34em" fill="#4B5563" font-size="12.5" font-weight="700">AUTO</text>
+    <g transform="translate(400,318)"><rect x="1" y="3" width="22" height="17" rx="2" fill="none" stroke="#C9A227" stroke-width="2"/><circle cx="7" cy="9" r="2.5" fill="#C9A227"/><polyline points="3,19 9,12 14,16 20,9" fill="none" stroke="#C9A227" stroke-width="2" stroke-linejoin="round"/></g>
+    <text x="434" y="342" fill="#1A1A1A" font-size="22" font-weight="800">Visuals</text>
+    <rect x="400" y="356" width="86" height="26" rx="13" fill="#FBF4DA"/><text x="443" y="369" text-anchor="middle" dy=".34em" fill="#9A7A12" font-size="12.5" font-weight="700">Saturday</text>
+    <text x="400" y="408" fill="#4B5563" font-size="14.5"><tspan x="400" dy="0">Canva auto-creates the</tspan><tspan x="400" dy="19">thumbnails + banners —</tspan><tspan x="400" dy="19">3 options each.</tspan></text>
+  </g>
+
+  <!-- ===== CARD 3 · APPROVE (YOU) ===== -->
+  <g>
+    <rect x="680" y="235" width="240" height="230" rx="18" fill="#FFFDF6" stroke="#C9A227" stroke-width="3"/>
+    <circle cx="714" cy="271" r="20" fill="#C9A227"/><text x="714" y="271" text-anchor="middle" dy=".34em" fill="#FFFFFF" font-size="22" font-weight="800">3</text>
+    <rect x="838" y="256" width="62" height="28" rx="14" fill="#C9A227"/><text x="869" y="270" text-anchor="middle" dy=".34em" fill="#FFFFFF" font-size="12.5" font-weight="800">YOU</text>
+    <g transform="translate(700,318)"><polyline points="2,12 9,19 22,4" fill="none" stroke="#C9A227" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></g>
+    <text x="734" y="342" fill="#1A1A1A" font-size="22" font-weight="800">Approve</text>
+    <rect x="700" y="356" width="142" height="26" rx="13" fill="#C9A227"/><text x="771" y="369" text-anchor="middle" dy=".34em" fill="#FFFFFF" font-size="12" font-weight="700">YOUR ONLY STEP</text>
+    <text x="700" y="408" fill="#4B5563" font-size="14.5"><tspan x="700" dy="0">You tweak via the Changes</tspan><tspan x="700" dy="19">column, then tick</tspan><tspan x="700" dy="19">"Approve to Post."</tspan></text>
+  </g>
+
+  <!-- ===== CARD 4 · PUBLISH ===== -->
+  <g>
+    <rect x="980" y="235" width="240" height="230" rx="18" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <circle cx="1014" cy="271" r="20" fill="#C9A227"/><text x="1014" y="271" text-anchor="middle" dy=".34em" fill="#FFFFFF" font-size="22" font-weight="800">4</text>
+    <rect x="1140" y="256" width="62" height="28" rx="14" fill="#F3F4F6" stroke="#E5E7EB"/><text x="1171" y="270" text-anchor="middle" dy=".34em" fill="#4B5563" font-size="12.5" font-weight="700">AUTO</text>
+    <g transform="translate(1000,318)"><line x1="12" y1="21" x2="12" y2="6" stroke="#C9A227" stroke-width="2.5" stroke-linecap="round"/><polygon points="5,12 12,3 19,12" fill="#C9A227"/></g>
+    <text x="1034" y="342" fill="#1A1A1A" font-size="22" font-weight="800">Publish</text>
+    <rect x="1000" y="356" width="98" height="26" rx="13" fill="#FBF4DA"/><text x="1049" y="369" text-anchor="middle" dy=".34em" fill="#9A7A12" font-size="12.5" font-weight="700">Daily · 9am</text>
+    <text x="1000" y="408" fill="#4B5563" font-size="14.5"><tspan x="1000" dy="0">Posts to LinkedIn, YouTube</tspan><tspan x="1000" dy="19">&amp; Facebook through</tspan><tspan x="1000" dy="19">your own browser.</tspan></text>
+  </g>
+
+  <!-- ===== CARD 5 · MEASURE ===== -->
+  <g>
+    <rect x="1280" y="235" width="240" height="230" rx="18" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="1.5"/>
+    <circle cx="1314" cy="271" r="20" fill="#C9A227"/><text x="1314" y="271" text-anchor="middle" dy=".34em" fill="#FFFFFF" font-size="22" font-weight="800">5</text>
+    <rect x="1440" y="256" width="62" height="28" rx="14" fill="#F3F4F6" stroke="#E5E7EB"/><text x="1471" y="270" text-anchor="middle" dy=".34em" fill="#4B5563" font-size="12.5" font-weight="700">AUTO</text>
+    <g transform="translate(1300,318)"><rect x="2" y="14" width="5" height="8" fill="#C9A227"/><rect x="10" y="9" width="5" height="13" fill="#C9A227"/><rect x="18" y="5" width="5" height="17" fill="#C9A227"/></g>
+    <text x="1334" y="342" fill="#1A1A1A" font-size="22" font-weight="800">Measure</text>
+    <rect x="1300" y="356" width="78" height="26" rx="13" fill="#FBF4DA"/><text x="1339" y="369" text-anchor="middle" dy=".34em" fill="#9A7A12" font-size="12.5" font-weight="700">Monday</text>
+    <text x="1300" y="408" fill="#4B5563" font-size="14.5"><tspan x="1300" dy="0">Reads engagement back —</tspan><tspan x="1300" dy="19">live dashboard +</tspan><tspan x="1300" dy="19">weekly report.</tspan></text>
+  </g>
+
+  <!-- ===== Backbone: Airtable hub ===== -->
+  <rect x="120" y="512" width="1360" height="86" rx="20" fill="#FBF6E3" stroke="#C9A227" stroke-width="1.5"/>
+  <text x="800" y="550" text-anchor="middle" fill="#1A1A1A" font-size="22" font-weight="800">Airtable — the Content OS</text>
+  <text x="800" y="576" text-anchor="middle" fill="#6B7280" font-size="15">Every idea, caption, image, schedule and metric lives in one base.</text>
+
+  <!-- ===== Legend ===== -->
+  <g>
+    <rect x="442" y="648" width="62" height="28" rx="14" fill="#F3F4F6" stroke="#E5E7EB"/><text x="473" y="662" text-anchor="middle" dy=".34em" fill="#4B5563" font-size="12.5" font-weight="700">AUTO</text>
+    <text x="516" y="662" dy=".34em" fill="#4B5563" font-size="16">the AI agent does it automatically</text>
+    <rect x="442" y="688" width="62" height="28" rx="14" fill="#C9A227"/><text x="473" y="702" text-anchor="middle" dy=".34em" fill="#FFFFFF" font-size="12.5" font-weight="800">YOU</text>
+    <text x="516" y="702" dy=".34em" fill="#4B5563" font-size="16">about 2 minutes a week — edit &amp; approve</text>
+  </g>
+
+  <!-- ===== Tools footer ===== -->
+  <text x="800" y="772" text-anchor="middle" fill="#1A1A1A" font-size="17" font-weight="700">Built with Claude · Airtable · Canva · your browser</text>
+  <text x="800" y="800" text-anchor="middle" fill="#9CA3AF" font-size="14.5">No third-party scheduler — it posts from your own accounts.</text>
+</svg>
